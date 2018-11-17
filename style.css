@@ -1,0 +1,262 @@
+.banner {
+	background-image: url(indoor-garden.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	}
+.menu-baner {
+	margin-top: -7px;
+}
+.menu-baner a{
+	color: white;
+	font-size: 15px;
+}
+.menu-baner a:hover{
+	border-top: 5px solid green;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	}
+.dropdown-menu.show{
+	background: #009a4d70;
+	border: 1px solid white;
+	width: 200px;
+}
+a.dropdown-item:hover{
+	background:none;
+	border: none;
+	color: red;
+}
+.menu-baner .logo a{
+	background: url(word.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	width: 90px;
+	height: 45px;
+	margin-top:-15px;
+}
+.menu-baner .logo a:hover {
+	border-top: none;
+	background-size: 100px;
+	text-align: justify;
+}
+.menu-baner .search input {
+	border-radius: 20px;
+    border: 1px solid white;
+    padding: 3px 20px;
+    background-color: #ffffff63;
+    color: black;
+    transition: all 1s ease-in-out;
+    outline: none;
+}
+.menu-baner .search input:hover,
+.menu-baner .search input:active,
+.menu-baner .search input:focus {
+	background-color: #fff;
+	outline: none;
+}
+.menu-baner .search a{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	z-index: 500;
+	left: -35px;
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+}
+.menu-baner .search a:hover {
+	outline: none;
+	text-decoration: none;
+	color: black;
+	border-top: none;
+}
+.banner h1 {
+	font-size: 40px;
+	color: white;
+	padding-top: 200px;
+	margin-bottom: 40px;
+}
+ .banner a.link_1,
+ a.view {
+	text-decoration: none;
+	margin: 30px;
+	padding: 5px 10px;
+	background-color: #00a21a;
+	border-radius: 15px;
+	color: #fff;
+	transition: all .7s ease-in-out;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ }
+.banner a.link_1:hover,
+a.view:hover {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	background-color: #f6f772;
+}
+.art_is {
+	padding-bottom: 130px;
+    padding-top: 50px;
+}
+.t1 {
+	background-color: #ffffff54;
+	border-radius: 15px;
+	color: #000;
+	text-decoration: none;
+}
+h2 {
+	padding-top: 45px
+}
+.first_cont h2:after{
+	content: "";
+	width: 40px;
+	height: 2px;
+	display: block;
+	background-color: grey;
+	margin-left: 48%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.my-cont img {
+	border: 35px solid #d1e0d0ba;
+    border-radius: 30px;
+}
+
+.banner .t1_row {
+	margin-top: 15%;
+}
+.t1_row a {
+	padding: 3px 10px;
+}
+.t1_row a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.my-cont a.learn {
+	background-color: #1c8b00;
+	padding: 5px 20px;
+	color: #fff;
+	border-radius: 15px;
+}
+.my-cont a.learn:hover {
+	color: #fff;
+	text-decoration: none;
+	background: red;
+	padding: 10px 20px;
+	border-radius: 30px;
+	font: 125% none;
+}
+.my-cont {
+	margin-top: 5%;
+}
+.my-cont .col-md-3 {
+	margin-bottom: 5%;
+}
+
+.ienlarger a {
+	cursor: default;
+}
+.ienlarger a:hover{ /* Не надо изменять тип позиционирования */
+ 	position: relative;
+	}
+
+.ienlarger span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг изображения */
+	margin-bottom: 8px; /* /Сдвигаем текст вниз от изображения */
+}
+.ienlarger a span {  /* Для большого изображения и названия */
+	position: absolute;
+	display:none;
+}
+.ienlarger a:hover span { 
+	display:block;
+	top: -150px;
+ 	left: auto;
+	z-index: 100;
+	cursor: default;
+/* Если добавить правило cursor:default;, то отключится курсор в виде руки на большом изображении */
+}
+
+.ienlarger.large_left a:hover{
+	position: relative;
+}
+.ienlarger.large_left a:hover span {
+	display:block;
+	z-index: 200;
+	left: -200px;
+}
+.resize_thumb {
+	width: 300px; /* Вводим нужный размер миниатюры здесь */
+	height : auto;
+}
+.large {
+	width: 500px;
+	height: 450px;
+}
+#banner {
+	color: #005f00;
+	background: #54c354;
+	margin-top: 5%;
+
+}
+.work_line h2:after{
+	content: "";
+	width: 40px;
+	height: 2px;
+	display: block;
+	background-color: #005f00;
+	margin-left: 48%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.button-3 a{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	background: white;
+	font-weight: 800;
+}
+.button-3 a.radius_left{
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+.button-3 a.radius_right{
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.button-3 a:focus,
+.button-3 a:hover{
+background: #28a745;
+color: white;
+}
+.photo_5_row {
+	padding-bottom: 30px;
+}
+.photo_5 {
+	width: 190px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+img.photo_5:hover {
+	display: block;
+	width: 320px;
+	height: 225px;
+	position: absolute;
+	z-index: 600;
+}
+.view_more{
+	padding: 50px;
+}
+.carousel-padding {
+	max-width: 60%;
+	margin-left: 20%;
+}
+.carousel-padding img {
+	max-width: 100%;
+	max-height: 400px;
+}
+.carousel-padding h5,
+.carousel-padding p {
+	color: #f1ff2f;
+}
