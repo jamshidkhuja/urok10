@@ -78,18 +78,17 @@ a.dropdown-item:hover{
 	padding-top: 200px;
 	margin-bottom: 40px;
 }
- .banner a.link_1,
+ .banner button.link_1,
  a.view {
 	text-decoration: none;
-	margin: 30px;
 	padding: 5px 10px;
 	background-color: #00a21a;
-	border-radius: 15px;
+	border-radius: 20px;
 	color: #fff;
-	transition: all .7s ease-in-out;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: all .9s ease-in-out;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
  }
-.banner a.link_1:hover,
+.banner button.link_1:hover,
 a.view:hover {
 	text-decoration: none;
 	outline: none;
@@ -259,4 +258,56 @@ img.photo_5:hover {
 .carousel-padding h5,
 .carousel-padding p {
 	color: #f1ff2f;
+}
+h2.happy_client:after{
+	content: "";
+	width: 40px;
+	height: 2px;
+	display: block;
+	background-color: grey;
+	margin-left: 48%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.my_flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	margin-left: 100px;
+    margin-right: 100px;
+}
+.my_flex-block img {
+	width: 210px;
+	height: 100px;
+	filter: grayscale(1);
+}
+.my_flex div {
+	margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.grey_color{
+	background: #efeded;
+}
+.grey_color h2,
+.grey_color p {
+	color: #848181;
+}
+a.see_all_clients {
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: #cccecc;
+	border-radius: 20px;
+	color: #807e7e;
+	transition: all .9s ease-in-out;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+ }
+a.see_all_clients:hover {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #5a5a59;
 }
