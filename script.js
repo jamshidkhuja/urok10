@@ -1,28 +1,28 @@
-var admin, name;
-var name = "Vasiliy";
-admin = name;
-alert(admin);
+var user = {
+	name: "Василий",
+	surname: "Петров",
+};
 
-var num1, num2, ans;
-var num1 = 6;
-var num2 = 2;
-ans = num1 + num2;
-alert(ans);
+alert(user.name);
+user.name = "Сергей"
+alert(user.name);
+delete user.name;
+alert(user.name);
 
-var num1, num2, ans;
-var num1 = 6;
-var num2 = 2;
-ans = num1 - num2;
-alert(ans);
+// var person = {
+// 	name: "Василий",
+// 	age: 25,
+// 	city: "Tashkent"
+// };
 
-var num1, num2, ans;
-var num1 = 6;
-var num2 = 2;
-ans = num1 * num2;
-alert(ans);
+// delete person.city;
 
-var num1, num2, ans;
-var num1 = 6;
-var num2 = 2;
-ans = num1 / num2;
-alert(ans);
+// var answer;
+
+// if (person.city === undefined) {
+// 	answer = "Элемент отсутствует";
+// }else{
+// 	answer = person.city;
+// }
+
+// alert(answer);
